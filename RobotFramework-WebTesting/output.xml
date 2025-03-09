@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.1 on win32)" generated="2025-03-09T20:00:45.297081" rpa="false" schemaversion="5">
+<suite id="s1" name="TC1" source="C:\Users\David Soerdjana\Documents\QA\Github\learnQA\RobotFramework-Selenium\TestCases\TC1.robot">
+<test id="s1-t1" name="LoginTest" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-09T20:00:46.825330" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-09T20:00:46.824185" elapsed="5.936661"/>
+</kw>
+<kw name="loginToApplication">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-03-09T20:00:52.765618" level="INFO">Clicking link 'xpath://a[@class='ico-login']'.</msg>
+<arg>xpath://a[@class='ico-login']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T20:00:52.764220" elapsed="2.160677"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-09T20:00:54.926759" level="INFO">Typing text 'dav.surj@gmail.com' into text field 'id:Email'.</msg>
+<arg>id:Email</arg>
+<arg>dav.surj@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T20:00:54.925734" elapsed="0.992720"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-09T20:00:55.919660" level="INFO">Typing text 'Test@123' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>Test@123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T20:00:55.919033" elapsed="0.290756"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T20:00:56.211026" level="INFO">Clicking element 'xpath://button[normalize-space()='Log in']'.</msg>
+<arg>xpath://button[normalize-space()='Log in']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T20:00:56.210385" elapsed="0.402960"/>
+</kw>
+<status status="PASS" start="2025-03-09T20:00:52.762683" elapsed="3.851262"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-03-09T20:00:56.615691" elapsed="2.915875"/>
+</kw>
+<status status="PASS" start="2025-03-09T20:00:46.819791" elapsed="12.715002"/>
+</test>
+<status status="PASS" start="2025-03-09T20:00:45.304958" elapsed="14.242943"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TC1" id="s1" pass="1" fail="0" skip="0">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
